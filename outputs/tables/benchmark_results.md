@@ -1,0 +1,15 @@
+# Multimodal Plant Stress Detection — Model Benchmark Results
+
+Evaluation across 5-Fold Stratified GroupKFold (grouped by physical Box ID, $N=27$ sugar beet boxes).
+All test sets represent unseen plant boxes.
+
+| Model Architecture                 | Modality Type   | Accuracy (Mean±SD)   | Balanced Acc (Mean±SD)   | F1-Score (Mean±SD)   | ROC-AUC (Mean±SD)   | PR-AUC (Mean±SD)   | Precision (Mean±SD)   | Recall (Mean±SD)   |
+|:-----------------------------------|:----------------|:---------------------|:-------------------------|:---------------------|:--------------------|:-------------------|:----------------------|:-------------------|
+| RGB Canopy Only (Unimodal)         | Unimodal        | 0.933 ± 0.023        | 0.921 ± 0.045            | 0.802 ± 0.070        | 0.974 ± 0.014       | 0.866 ± 0.109      | 0.746 ± 0.135         | 0.899 ± 0.105      |
+| Environmental Telemetry (Unimodal) | Unimodal        | 0.716 ± 0.081        | 0.655 ± 0.113            | 0.293 ± 0.169        | 0.768 ± 0.044       | 0.321 ± 0.144      | 0.267 ± 0.221         | 0.530 ± 0.396      |
+| Diagnostic Soil/SPAD (Unimodal)    | Unimodal        | 0.913 ± 0.048        | 0.883 ± 0.138            | 0.716 ± 0.200        | 0.983 ± 0.028       | 0.888 ± 0.204      | 0.736 ± 0.236         | 0.837 ± 0.307      |
+| Concat Fusion (Multimodal)         | Multimodal      | 0.972 ± 0.014        | 0.963 ± 0.027            | 0.915 ± 0.029        | 0.995 ± 0.005       | 0.979 ± 0.015      | 0.892 ± 0.067         | 0.946 ± 0.054      |
+| Gated Fusion (Proposed Multimodal) | Multimodal      | 0.974 ± 0.016        | 0.964 ± 0.028            | 0.921 ± 0.037        | 0.995 ± 0.005       | 0.981 ± 0.018      | 0.904 ± 0.081         | 0.946 ± 0.054      |
+| Cross-Attention (Multimodal)       | Multimodal      | 0.977 ± 0.015        | 0.968 ± 0.024            | 0.934 ± 0.015        | 0.994 ± 0.007       | 0.979 ± 0.017      | 0.917 ± 0.054         | 0.955 ± 0.049      |
+
+*Target: Dynamic Physiological Drought Stress (Desiccation threshold $W_{box} < 12.0$ kg).*

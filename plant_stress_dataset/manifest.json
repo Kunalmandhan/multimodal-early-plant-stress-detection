@@ -1,0 +1,111 @@
+{
+  "dataset_name": "Eschikon Plant Stress Phenotyping Dataset",
+  "official_url": "https://projects.asl.ethz.ch/datasets/doku.php?id=2018plantstressphenotyping",
+  "replacement_portal": "https://ethz-asl.github.io/datasets/plant-stress-phenotyping-2018/",
+  "doi": "10.3929/ethz-c-000788562",
+  "handle": "20.500.11850/788562",
+  "last_updated": "2026-10-15T18:04:57Z",
+  "total_files": 10,
+  "files": {
+    "pointclouds.zip": {
+      "filename": "pointclouds.zip",
+      "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/6bbd2ded-ca83-4108-a446-ff3e4f51a08b/content",
+      "expected_size": 2380213480,
+      "actual_size": null,
+      "checksum_algorithm": "MD5",
+      "expected_checksum": "4cc6913dbd3b7aa3bd6c115dc2c6b7c5",
+      "actual_checksum": null,
+      "status": "stopped_by_user"
+    },
+    "box-weights-kg.csv": {
+      "filename": "box-weights-kg.csv",
+      "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/12a604ad-6325-436b-afff-3351e59e2504/content",
+      "expected_size": 4046,
+      "actual_size": 4046,
+      "checksum_algorithm": "MD5",
+      "expected_checksum": "d1252f643e671a386841894b1f98ae5a",
+      "actual_checksum": "d1252f643e671a386841894b1f98ae5a",
+      "status": "verified"
+    },
+    "greenhouse-temperature-humidity-logs.csv": {
+      "filename": "greenhouse-temperature-humidity-logs.csv",
+      "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/81d7d6c3-7798-4b7c-9aa1-748076fed4ce/content",
+      "expected_size": 267460,
+      "actual_size": 267460,
+      "checksum_algorithm": "MD5",
+      "expected_checksum": "6e922e4f521d8cb3c6ec91530aec9be8",
+      "actual_checksum": "6e922e4f521d8cb3c6ec91530aec9be8",
+      "status": "verified"
+    },
+    "spad-measurements.csv": {
+      "filename": "spad-measurements.csv",
+      "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/9206ad85-a801-4de7-8e76-71ebdd165f0d/content",
+      "expected_size": 895,
+      "actual_size": 895,
+      "checksum_algorithm": "MD5",
+      "expected_checksum": "30881e6b7a15beb7445b90c6277c7689",
+      "actual_checksum": "30881e6b7a15beb7445b90c6277c7689",
+      "status": "verified"
+    },
+    "yield-weight-grams.csv": {
+      "filename": "yield-weight-grams.csv",
+      "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/803cc10a-0f19-453d-bbbc-6174cf455e9a/content",
+      "expected_size": 945,
+      "actual_size": 945,
+      "checksum_algorithm": "MD5",
+      "expected_checksum": "25ddec39e72dee0a48227614f50267db",
+      "actual_checksum": "25ddec39e72dee0a48227614f50267db",
+      "status": "verified"
+    },
+    "directory-structure.txt": {
+      "filename": "directory-structure.txt",
+      "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/c7ddb68c-0d38-41c1-ad2e-86ca16ee8756/content",
+      "expected_size": 1583,
+      "actual_size": 1583,
+      "checksum_algorithm": "MD5",
+      "expected_checksum": "a85c8bb566c47ac30fb708c1ee1cc062",
+      "actual_checksum": "a85c8bb566c47ac30fb708c1ee1cc062",
+      "status": "verified"
+    },
+    "calibration.zip": {
+      "filename": "calibration.zip",
+      "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/a73e635c-fcf8-467c-9ee2-829a780040f6/content",
+      "expected_size": 95976039,
+      "actual_size": 95976039,
+      "checksum_algorithm": "MD5",
+      "expected_checksum": "f69978b9bae3ac97f6e387458cc35772",
+      "actual_checksum": "f69978b9bae3ac97f6e387458cc35772",
+      "status": "verified"
+    },
+    "images.zip": {
+      "filename": "images.zip",
+      "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/595d39b7-61c6-418d-892b-90fa7df45d7d/content",
+      "expected_size": 2500166272,
+      "actual_size": 2500166272,
+      "checksum_algorithm": "MD5",
+      "expected_checksum": "073b0b873a3751f6f6068905c1816eb8",
+      "actual_checksum": null,
+      "status": "extracted"
+    },
+    "dataset-overview.jpg": {
+      "filename": "dataset-overview.jpg",
+      "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/e0bc6672-5446-47b4-b378-65552bd9f0bf/content",
+      "expected_size": 83900,
+      "actual_size": 83900,
+      "checksum_algorithm": "MD5",
+      "expected_checksum": "3fc110bf6f7e9a60b43c5f84f59a8eed",
+      "actual_checksum": "3fc110bf6f7e9a60b43c5f84f59a8eed",
+      "status": "verified"
+    },
+    "README.pdf": {
+      "filename": "README.pdf",
+      "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/0b0f507c-4b52-446b-995d-708ff2c762de/content",
+      "expected_size": 258690,
+      "actual_size": 258690,
+      "checksum_algorithm": "MD5",
+      "expected_checksum": "05a7cb7c75c0549f9ea0c77d0d929687",
+      "actual_checksum": "05a7cb7c75c0549f9ea0c77d0d929687",
+      "status": "verified"
+    }
+  }
+}

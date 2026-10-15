@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large dataset archives (>100MB exceeds GitHub limit)
+*.zip
+*.tar
+*.tar.gz
+*.part
+images.zip
+plant_stress_dataset/downloads/*.zip
+plant_stress_dataset/downloads/*.part
+
+# Extracted image datasets (~2.5GB)
+plant_stress_dataset/extracted/
+
+# Model checkpoints and large cache tensors (>40MB)
+checkpoints/*.pt
+outputs/cached_resnet18_features.pt
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.log

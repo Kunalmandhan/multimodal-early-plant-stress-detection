@@ -1,0 +1,48 @@
+.
+├── box-weights-kg.csv
+├── directory-structure.txt
+├── greenhouse-temperature-humidity-logs.csv
+├── images
+│   ├── 20180118
+│   │   ├── ir1
+│   │   │   ├── 1.png
+│   │   │   └── 31.png
+│   │   ├── ir2
+│   │   │   ├── 1.png
+│   │   │   └── 31.png
+│   │   ├── multispec
+│   │   │   ├── 1.png
+│   │   │   └── 31.png
+│   │   └── rgb
+│   │       ├── 1.png
+│   │       └── 31.png
+│   ├── 20180130
+│   │   ├── ir1
+│   │   │   ├── 1.png
+│   │   │   └── 31.png
+│   │   ├── ir2
+│   │   │   ├── 1.png
+│   │   │   └── 31.png
+│   │   ├── multispec
+│   │   │   ├── 1.png
+│   │   │   └── 31.png
+│   │   └── rgb
+│   │       ├── 1.png
+│   │       └── 31.png
+│   └── 20180329
+│       ├── ir1
+│       │   ├── 1.png
+│       │   └── 31.png
+│       ├── ir2
+│       │   ├── 1.png
+│       │   └── 31.png
+│       ├── multispec
+│       │   ├── 1.png
+│       │   └── 31.png
+│       └── rgb
+│           ├── 1.png
+│           └── 31.png
+├── spad-measurements.csv
+└── yield-weight-grams.csv
+
+16 directories, 29 files
